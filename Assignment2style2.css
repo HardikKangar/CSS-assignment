@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: normal;
+}
+
+body{
+margin: 10px;
+}
+
+header{
+    background-color: lightseagreen;
+    display: flex;
+    align-items:center;
+    height: 125px;
+    padding: 0px 25px;
+    text-decoration: underline;
+}
+
+header div{
+    height: 115px;
+    width: auto;
+    flex-grow: 1;
+}
+
+header img{
+    height: 100%;
+    width: auto;
+    opacity: 0.9;
+    margin-left: -25px;
+    align-content: flex-start;
+}
+
+header h5{
+    text-align: left;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+
+menu{
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: -50px;
+    list-style: none;
+}
+
+menu{
+    background-color: lightslategray;
+    margin-left: 0px;
+    padding: 5px 5px;
+}
+
+menu li{
+    border-right: solid 1px black;
+    padding: 0px 10px;
+    align-content: right; 
+    margin-left: -10px;
+}
+
+p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23{
+    font-family:'Montserrat Alternates', sans-serif; 
+}
+
+h1,h5{
+    font-family:'Montserrat Alternates', sans-serif;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: -50px;
+    text-shadow: 4px 2px 4px rgba(50, 49, 49, 0.5);
+}
+
+h5{
+    font-size: 15px;
+}
+
+@font-face{
+    font-family: lessonfont;
+    src:url("../font/PunkTypewriter.otf");
+}
+
+main{
+    background-color: aliceblue;
+}
+
+body{
+    border: solid;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.title-row p1,p2,p3,p4{
+    font-family: lessonfont;
+    font-size: 15px;
+}
+
+.title-row div:nth-child(3){
+    font-family: lessonfont;
+    font-size: 15px;
+}
+
+#contrast {
+    background-color: orange;
+}
+
+#contrast2{
+    background-color: lightgoldenrodyellow;
+}
+
+.title-row{
+    background-color: lightpink;
+}
+
+#letterspacing{
+    background-color: yellow;
+}
+
+#lineheight{
+    background-color: skyblue;
+}
+
+.letterspacing-container .with-spacing p16,p17,p18,p19,p15{
+    letter-spacing: 1.75px;
+}
+
+.letterspacing-container .with-kerning p18,p19{
+    font-kerning: normal;
+}
+
+#lineheight{
+    line-height: 1.5;
+}
